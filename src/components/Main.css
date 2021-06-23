@@ -1,0 +1,558 @@
+.cardContainer {
+  padding: 0 129px;
+  margin-top: 80px;
+}
+.cardDiv {
+  display: flex;
+  justify-content: flex-start;
+}
+.cardDiv .extraDetails {
+  padding: 14px 16px 8px 12px;
+}
+.cardDiv img {
+  /*width: 156px;
+	 height: 220px;
+	 border-top-left-radius: 13px;
+	 border-bottom-left-radius: 13px;*/
+  width: 120px;
+  height: 120px;
+  /* border-top-left-radius: 13px; */
+  /* border-bottom-left-radius: 13px; */
+  border-radius: 50%;
+  object-fit: contain;
+}
+.card-body {
+  padding: 0;
+}
+.box {
+  box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5);
+  border-radius: 13px;
+  margin: 15px 0 !important;
+  border: none;
+}
+.box a:hover {
+  text-decoration: none;
+}
+.box .card-title {
+  font-size: 23px;
+  color: #484e55;
+  margin-bottom: 20px;
+  /*min-height: 105px;*/
+}
+.box .card-subtitle div p:nth-child(1) {
+  font-size: 14px;
+  color: #899eb0;
+  margin-bottom: 7px;
+}
+.box .card-subtitle div p:nth-child(2) {
+  font-size: 14px;
+  color: #484e55;
+}
+.box .card-subtitle div:nth-child(2) {
+  margin-top: 9px;
+}
+.box .card-text {
+  position: absolute;
+  right: 30px;
+  color: #484e55;
+  font-size: 12px;
+  text-decoration: underline;
+  bottom: 25px;
+}
+.infinite-scroll-component {
+  overflow: hidden !important;
+}
+.cardLoader {
+  text-align: center;
+  font: 30px;
+  padding: 15px;
+  border: 1px solid #000;
+}
+@media (max-width: 575.98px) {
+  .cardContainer {
+    padding: 0 30px;
+  }
+  .box .card-title {
+    font-size: 16px;
+    /*min-height: 50px;*/
+  }
+  .box .card-text {
+    bottom: 17px;
+  }
+  .cardDiv img {
+    width: 100px;
+    height: 100px;
+  }
+  .cardDiv .extraDetails {
+    padding: 8px;
+  }
+  .mb-2 {
+    margin-bottom: 0px !important;
+  }
+  .my-2 {
+    margin-bottom: 0px !important;
+  }
+  .menu-content label span:last-child {
+    font-size: 14px !important;
+    margin-left: 7px !important;
+  }
+  .menu-content {
+    padding: 0 0 0 15px !important;
+  }
+  .modal-title {
+    padding: 5% 5% 1% 3% !important;
+    font-size: 22px;
+  }
+  .menu-content .checkmark:after {
+    top: 3px !important;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    border-left: none !important;
+  }
+  .navDiv {
+    display: flex;
+    align-items: center;
+  }
+  .navDiv a{
+  	margin-right: 15px;
+  }
+  .navBtn {
+    padding: 0.275rem 0.3rem !important;
+  }
+  .navbar-nav {
+    padding-left: 0px !important;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .cardLoader {
+    font-size: 20px;
+  }
+  .nav-link {
+	    padding: .5rem 0rem;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .navbar-expand-lg .navbar-collapse {
+    border-left: none !important;
+  }
+  .navDiv {
+    display: flex;
+    align-items: center;
+  }
+  .navDiv a{
+  	margin-right: 15px;
+  }
+  .navBtn {
+    padding: 0.275rem 0.3rem !important;
+  }
+  .navbar-nav {
+    padding-left: 0px !important;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .nav-link {
+	    padding: .5rem 0rem;
+	}
+  
+}
+@media (min-width: 576px) and (max-width: 992px) {
+	.nav-link {
+	    padding: .5rem 0rem;
+	}
+  .cardContainer {
+    padding: 0 72px;
+  }
+  .box .card-title {
+    font-size: 18px;
+    /*min-height: 80px;*/
+  }
+  .box .card-text {
+    bottom: 18px;
+  }
+  .cardDiv img {
+    width: 120px;
+    height: 120px;
+  }
+  .cardDiv .extraDetails {
+    padding: 8px;
+  }
+  .mb-2 {
+    margin-bottom: 0px !important;
+  }
+  .my-2 {
+    margin-bottom: 0px !important;
+  }
+  .navbar-expand-lg .navbar-collapse {
+       border-left: none !important; 
+	}
+}
+@media (min-width: 993px) and (max-width: 1199.98px) {
+  .cardContainer {
+    padding: 0 95px;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1399.98px) {
+  .box .card-title {
+    font-size: 18px;
+    /*min-height: 80px;*/
+  }
+  .box .card-text {
+    bottom: 10px;
+  }
+  .cardDiv img {
+    width: 120px;
+    height: 120px;
+  }
+  .cardDiv .extraDetails {
+    padding: 8px;
+  }
+  .mb-2 {
+    margin-bottom: 0px !important;
+  }
+  .my-2 {
+    margin-bottom: 0px !important;
+  }
+}
+ .navDiv {
+    display: flex;
+    align-items: center;
+  }
+  .navDiv a{
+  	margin-right: 15px;
+  }
+  
+  .navbar-nav {
+    padding-left: 0px !important;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+.imgDiv {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.containerDiv {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.containerDiv input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  /* position: absolute;
+  top: 0;
+  left: 0;*/
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+/*.containerDiv:hover input ~ .checkmark {
+  background-color: #ccc;
+}*/
+
+/* When the radio button is checked, add a blue background */
+.containerDiv input:checked ~ .checkmark {
+  background-color: #f35742;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.containerDiv input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.containerDiv .checkmark:after {
+  left: 9px;
+  top: 4px;
+  width: 8px;
+  height: 14px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.collapseDiv {
+  width: 100%;
+  height: 0px;
+
+  transition: height 5s;
+}
+.showDiv {
+  width: 100%;
+  height: 500px;
+}
+
+.menu-content {
+  padding: 0 0 0 20px;
+}
+.collapsible-menu {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  /* padding: 0px 30px;*/
+}
+.collapsible-menu ul {
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+}
+.collapsible-menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.collapsible-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+.collapsible-menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+.collapsible-menu .checkmark {
+  display: block;
+  cursor: pointer;
+  /*padding: 10px 0 10px 50px;*/
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+.collapsible-menu .checkmark:after {
+  left: 9px;
+  top: 4px;
+  width: 8px;
+  height: 14px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+input#menu {
+  display: none;
+}
+
+.menu-content {
+  max-height: 0;
+  overflow: hidden;
+
+  padding: 0 0 0 20px;
+}
+/* Toggle Effect */
+
+input:checked + label ~ .menu-content {
+  max-height: 100%;
+}
+
+input + label .checkmark {
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+/* When the radio button is checked, add a blue background */
+input:checked + label .checkmark {
+  background-color: #f35742;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  /* position: absolute;*/
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+input:checked + label .checkmark:after {
+  display: block;
+}
+
+.checkmark1 {
+  display: block;
+  cursor: pointer;
+  /*padding: 10px 0 10px 50px;*/
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.checkmark1:after {
+  left: 9px;
+  top: 4px;
+  width: 8px;
+  height: 14px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+input#menu1 {
+  display: none;
+}
+
+input + label .checkmark1 {
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+/* When the radio button is checked, add a blue background */
+input:checked + label .checkmark1 {
+  background-color: #f35742;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark1:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+input:checked + label .checkmark1:after {
+  display: block;
+}
+.labelOne,
+.labelTwo,
+.labelThree {
+  display: flex;
+}
+label {
+  margin-bottom: 15px;
+}
+label span:last-child {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.menu-content label span:last-child {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.menu-content .checkmark {
+  height: 20px;
+  width: 20px;
+}
+.menu-content .checkmark:after {
+  top: 4px;
+  left: 7px;
+  width: 6px;
+  height: 12px;
+}
+.menu-content1 {
+  max-height: 0;
+  overflow: hidden;
+
+  padding: 0 0 0 20px;
+}
+/* Toggle Effect */
+input#menu2 {
+  display: none;
+}
+input:checked + .labelThree ~ .menu-content1 {
+  max-height: 100%;
+}
+.labelThree {
+  position: relative;
+}
+.lastCheckMark:after {
+  top: 3px !important;
+  left: 7px !important;
+}
+.modal-footer {
+  justify-content: flex-start !important;
+  padding: 1% 7% 7% 7%;
+  border-top: none;
+}
+.modal-footer a {
+  cursor: pointer;
+}
+.modal-footer button,
+.navBtn {
+  background-color: #f35742;
+  border-color: #f35742;
+  border-radius: 0.15rem;
+}
+.modal-footer button {
+  padding: 0.375rem 1.75rem;
+}
+.navBtn {
+  padding: 0.275rem 1.5rem;
+}
+.navBtn,
+.btn-primary.focus,
+.btn-primary:hover,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  color: #fff !important;
+  background-color: #f35742 !important;
+  border-color: #f35742 !important;
+  box-shadow: 0 0 0 0.2rem #f35742 !important;
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-title {
+  padding: 5% 5% 1% 5%;
+}
+.modal-body {
+  padding: 1% 7%;
+}
+.radioContainer {
+  position: relative;
+}
+.navbar-expand-lg .navbar-collapse {
+  border-left: 1px solid #f1f1f1;
+}
+
+.navbar-nav {
+  padding-left: 10px;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border: none;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+.navLink {
+  color: #000;
+  cursor: pointer;
+}
